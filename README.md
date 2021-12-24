@@ -1,7 +1,7 @@
 # Docker Build
 ```
 git clone git@github.com:arubasu/jenkins_jcac.git
-docker build -t jenkins:jcac .
+docker build -t <dockerhub_username>/jenkins:jcac .
 ```
 
 # Docker run
