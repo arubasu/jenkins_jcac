@@ -10,9 +10,9 @@ docker run --name jenkins -d --restart=unless-stopped \
     -p 80:8080 \
     -v /Users/arunava/delme/jenkins_home:/var/jenkins_home \
     --privileged \
-    --env JENKINS_ADMIN_ID=basu \
-    --env JENKINS_ADMIN_PASSWORD=basu123 \
-    --env JENKINS_SERVER_IP=localhost \
+    --env JENKINS_ADMIN_ID=username \
+    --env JENKINS_ADMIN_PASSWORD=password \
+    --env JENKINS_SERVER_IP=1.2.3.4 \
     arubasu/jenkins:jcac
 ```
 # Docker push
